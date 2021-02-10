@@ -1,0 +1,31 @@
+.mat-card{
+  background-image: url("src\assets\img\logoulaps.png" );
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(214, 228, 233);
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+
+}
+mat-label{
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font: bolder;
+  color: black;
+  text-align: center;
+}
+ input{
+  border-color: black;
+  font-family: 'Courier New', Courier, monospace;
+
+ }
+body{
+  display: block;
+  background-image: url("src\assets\img\clouds.jpg");
+}

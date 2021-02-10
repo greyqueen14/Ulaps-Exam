@@ -1,0 +1,40 @@
+mat-tab-group {
+ color: black;
+ font: bold;
+
+}
+.mat-radio-button {
+  border-color: rgb(66, 134, 244);
+  margin-left: 3rem;
+  margin-top: none;
+}
+.lang-asmnt {
+  background-color: rgb(227, 229, 231);
+}
+label {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+mat-divider{
+  border-color: black;
+}
+.sbmt-asmnt-per{
+  margin-top: 3em;
+  margin-left: 90%;
+
+}
+
+button{
+  font-size: 20px;
+  height: 2rem;
+  width: 5rem;
+  background-color: rgb(196, 223, 233);
+  color: black;
+  margin-bottom: 2rem;
+}
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}

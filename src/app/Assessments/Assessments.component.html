@@ -1,0 +1,84 @@
+<app-HomePage></app-HomePage>
+<app-countdown></app-countdown>
+<mat-tab-group color="accent" backgroundColor="accent" mat-align-tabs="center">
+  <mat-tab color ="warn" label="Language Assessment">
+
+    <div class="lang-asmnt">
+    <p> Answer the following questions:</p>
+    <label id="example-radio-group-label">1. Juan___________ in the library this morning.</label>
+      <br>
+        <mat-radio-group color="primary"
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          [(ngModel)]="fillblanks1">
+        <mat-radio-button class="example-radio-button"
+          *ngFor="let choices1 of choices1"
+          [value]="choices1" >
+           {{choices1}}
+        </mat-radio-button>
+        </mat-radio-group>
+      <mat-divider></mat-divider>
+    <label id="example-radio-group-label">2. Alicia, __________ the windows please. It's too hot in here.</label>
+      <br>
+        <mat-radio-group color="primary"
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          [(ngModel)]="fillblanks2">
+        <mat-radio-button class="example-radio-button"
+          *ngFor="let choices2 of choices2"
+          [value]="choices2" >
+           {{choices2}}
+        </mat-radio-button>
+        </mat-radio-group>
+      <mat-divider></mat-divider>
+    <label id="example-radio-group-label">3. The movie was __________ the book.</label>
+      <br>
+          <mat-radio-group color="primary"
+            aria-labelledby="example-radio-group-label"
+            class="example-radio-group"
+            [(ngModel)]="fillblanks3">
+          <mat-radio-button class="example-radio-button"
+            *ngFor="let choices3 of choices3"
+            [value]="choices3" >
+             {{choices3}}
+          </mat-radio-button>
+          </mat-radio-group>
+        <mat-divider></mat-divider>
+    <label id="example-radio-group-label">4. Eli's hobbies include jogging, swimming, and __________.</label>
+      <br>
+          <mat-radio-group color="primary"
+            aria-labelledby="example-radio-group-label"
+            class="example-radio-group"
+            [(ngModel)]="fillblanks4">
+          <mat-radio-button class="example-radio-button"
+            *ngFor="let choices4 of choices4"
+            [value]="choices4" >
+              {{choices4}}
+          </mat-radio-button>
+          </mat-radio-group>
+        <mat-divider></mat-divider>
+        <label id="example-radio-group-label">5. Mr. Hawkins requests that someone _________ the data by fax immediately.</label>
+        <br>
+            <mat-radio-group color="primary"
+              aria-labelledby="example-radio-group-label"
+              class="example-radio-group"
+              [(ngModel)]="fillblanks5">
+            <mat-radio-button class="example-radio-button"
+              *ngFor="let choices5 of choices5"
+              [value]="choices5" >
+               {{choices5}}
+            </mat-radio-button>
+            </mat-radio-group>
+          <mat-divider></mat-divider>
+    </div>
+
+</mat-tab>
+
+  <mat-tab label="Skills Assessment" >
+    <app-Skills></app-Skills>
+  </mat-tab>
+  <mat-tab label="Personality Assessment">
+    <app-Personality></app-Personality>
+  </mat-tab>
+</mat-tab-group>
+

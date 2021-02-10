@@ -1,0 +1,71 @@
+<div class="lang-asmnt">
+  <p> Answer the following questions:</p>
+  <label id="example-radio-group-label">1. How many peripheral devices can a master Bluetooth device communicate with in a piconet?</label>
+    <br>
+      <mat-radio-group color="primary"
+        aria-labelledby="example-radio-group-label"
+        class="example-radio-group"
+        [(ngModel)]="skill1">
+      <mat-radio-button class="example-radio-button"
+        *ngFor="let ch1 of ch1"
+        [value]="ch1" >
+         {{ch1}}
+      </mat-radio-button>
+      </mat-radio-group>
+    <mat-divider></mat-divider>
+  <label id="example-radio-group-label">2. The IDE interface is usually installed on the motherboard in which of the following?</label>
+    <br>
+      <mat-radio-group color="primary"
+        aria-labelledby="example-radio-group-label"
+        class="example-radio-group"
+        [(ngModel)]="skill2">
+      <mat-radio-button class="example-radio-button"
+        *ngFor="let ch2 of ch2"
+        [value]="ch2" >
+         {{ch2}}
+      </mat-radio-button>
+      </mat-radio-group>
+    <mat-divider></mat-divider>
+  <label id="example-radio-group-label">3. The North Bridge controls the processor, memory, PCI Bus, Level 2 cache and all AGP activities.</label>
+    <br>
+        <mat-radio-group color="primary"
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          [(ngModel)]="skill3">
+        <mat-radio-button class="example-radio-button"
+          *ngFor="let ch3 of ch3"
+          [value]="ch3" >
+           {{ch3}}
+        </mat-radio-button>
+        </mat-radio-group>
+      <mat-divider></mat-divider>
+  <label id="example-radio-group-label">4. If a new hard drive is installed in an old computer and the system does not register the total capacity of the hard drive, what is the most likely cause?</label>
+    <br>
+        <mat-radio-group color="primary"
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          [(ngModel)]="skill4">
+        <mat-radio-button class="example-radio-button"
+          *ngFor="let ch4 of ch4"
+          [value]="ch4" >
+            {{ch4}}
+        </mat-radio-button>
+        </mat-radio-group >
+      <mat-divider></mat-divider>
+      <label id="example-radio-group-label">5. Software obtained without informed consent is generally known as __________________.</label>
+      <br>
+          <mat-radio-group color="primary"
+            aria-labelledby="example-radio-group-label"
+            class="example-radio-group"
+            [(ngModel)]="skill5">
+          <mat-radio-button class="example-radio-button"
+            *ngFor="let ch5 of ch5"
+            [value]="ch5" >
+             {{ch5}}
+          </mat-radio-button>
+          </mat-radio-group>
+        <mat-divider></mat-divider>
+  </div>
+
+
+
