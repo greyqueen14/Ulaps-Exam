@@ -1,3 +1,7 @@
+body{
+  background-image: url("src\assets\img\homebg.jpg");
+  background-position: center;
+}
 h1 {
   margin-top: 3%;
   margin-left: 2rem;
@@ -13,6 +17,9 @@ p {
   margin-left: 2rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
+}
+h1,h2, p {
+  color: rgb(27, 27, 27);
 }
 .start-btn{
   margin-top: 3%;

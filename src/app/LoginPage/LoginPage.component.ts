@@ -18,7 +18,7 @@ export class LoginPageComponent{
   }
 
   public onlogInUSer(){
-    if(this.emailControl=='applicant@ulaps.dev' && this.password=='123456'){
+    if(this.emailControl==='applicant@ulaps.dev' && this.password=='123456'){
       this.router.navigate(['./HomeNav']);
 
     }

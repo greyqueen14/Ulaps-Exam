@@ -1,7 +1,5 @@
 import { Component, }  from "@angular/core";
-import { resetFakeAsyncZone } from "@angular/core/testing";
-import {FormControl, Validators} from '@angular/forms';
-import { Router } from '@angular/router';
+
 
 
 @Component({

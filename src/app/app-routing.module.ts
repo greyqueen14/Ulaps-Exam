@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AssessmentComponent } from './Assessments/Assessments.component';
-import { PersonalityComponent } from './Assessments/Personality.component';
 import { HomeNavComponent } from './HomePage/HomeNav.component';
 import { HomePageComponent } from './HomePage/HomePage.component';
 import { LoginPageComponent } from './LoginPage/LoginPage.component';
